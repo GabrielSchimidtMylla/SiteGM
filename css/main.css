@@ -2376,3 +2376,35 @@ footer ul li {
 	width: 100%;
     height: 4rem;
 }
+
+.logos
+{
+	text-align: center;
+}
+.logos > div
+{
+	display: inline-block;
+	padding: 0px 43px;
+}
+.logos > div > img
+{
+	width: 150px;
+}		    
+@media only screen and (max-width:768px) {
+	.logos > div
+	{
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width:600px) {
+	.logos > div
+	{
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width:400px) {
+	.logos > div
+	{
+		margin-top: 30px;
+	}
+}
